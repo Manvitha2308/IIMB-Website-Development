@@ -1,0 +1,115 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #F8F8F8; 
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
+  background-color: #1D3C6A; 
+  color: white;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: fill;
+  border: 3px solid white;
+}
+
+.name-role-wrapper {
+  margin-top: 8px;
+}
+
+nav {
+  background-color: #FF7F50; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav label {
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav label:hover {
+  text-decoration: underline;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.content {
+  padding: 20px;
+  background-color: #F8F8F8; 
+}
+
+.section {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); 
+}
+  
+#about-tab:checked ~ .content #about,
+#contact-tab:checked ~ .content #contact,
+#skills-tab:checked ~ .content #skills,
+#languages-tab:checked ~ .content #languages,
+#licenses-tab:checked ~ .content #licenses,
+#experience-tab:checked ~ .content #experience,
+#education-tab:checked ~ .content #education,
+#projects-tab:checked ~ .content #projects {
+  display: block;
+}
+
+.linkedin-link {
+  color: #0a66c2;
+  font-weight: bold;
+  display: block;
+  word-break: break-word;
+  text-align: center;
+}
+
+.linkedin-link:hover {
+  color: #f07706;
+  text-decoration: underline;
+}
+
+.email-text::selection {
+  background-color: #f07706;
+  color: whitesmoke;}
+
+  @media (max-width: 768px);
+    .box {
+      padding: 15px;
+    }
+  
+    
+  
+  
+  
+   
+  
+    
+    
+  
+    
+    
+  
+  
