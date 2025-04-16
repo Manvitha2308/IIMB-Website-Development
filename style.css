@@ -95,6 +95,10 @@ input[type="radio"] {
   background-color: #f07706;
   color: whitesmoke;}
 
+@media (max-width: 768px);
+    .box {
+      padding: 15px;
+    }
  
   
     
