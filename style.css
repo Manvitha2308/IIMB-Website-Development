@@ -100,6 +100,14 @@ input[type="radio"] {
       padding: 15px;
     }
 }
+nav {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav label {
+  margin: 10px 15px;
+}
  
   
     
