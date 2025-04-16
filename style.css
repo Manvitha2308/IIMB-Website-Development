@@ -83,7 +83,7 @@ input[type="radio"] {
   font-weight: bold;
   display: block;
   word-break: break-word;
-  text-align: center;
+  text-align: left;
 }
 
 .linkedin-link:hover {
